@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>テキストカウンター</title>
+    <link rel="stylesheet" href="letter_count.css"/>
+    <script type="text/javascript" src="letter_count.js"></script>
+</head>
+<body>
+<div class="container">
+    <form>
+      <div class="form-group">
+          <label>文字数カウンター</label>
+          <textarea id="text1" class="form-control"  rows="5";></textarea>
+          <input class="submit-btn" type="button" onclick="count_up()" name="commit" value="文字を数える">
+          <button type="submit" class="btn_fom btn_cancel">リセット</button>
+          <p>文字数</p>
+          <id id="count1" class="float-right"></id>
+          <p>半角スペース数(全角スペース数)</p>
+          <id id="count2" class="float-right2"></id>
+          <p>改行</p>
+          <id id="count3" class="float-right3"></id>
+          <p>文字の種類：文字数</p>
+          <id1 id="count4" class="float-right4"></id1>
+        </div>
+    </form>
+</div>
+</body>
+</html>

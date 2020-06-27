@@ -1,0 +1,50 @@
+html {
+  background-color: beige;
+}
+
+
+.container {
+    width: 700px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+#count1, #count2 {
+    color: #121295;
+}
+
+.container {
+  margin:80px auto;
+}
+
+.form-control{
+  width: 600px;
+  height: 300px;
+}
+
+.form-group2{
+  margin-top: 50px
+}
+
+
+.type {
+  width: 50px;
+  height: 50px;
+}
+
+
+id {
+  border: 1px solid;
+  padding: 5px 30px 5px 30px;
+  background-color: #ffffff;
+}
+
+label {
+  font-size: 50px;
+  color: orange;
+  font-weight: bold;
+}
+
+textarea  {
+  margin-top: 50px;
+}
+
